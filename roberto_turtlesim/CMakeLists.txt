@@ -9,17 +9,9 @@ project(roberto_turtlesim)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
-<<<<<<< HEAD
   roscpp
   rospy
   std_srvs
-=======
-  math
-  roscpp
-  rospy
-  std_srvs
-  time
->>>>>>> be76ceea3afc366d1a747e5010feeb833d4bda3d
   turtlesim
 )
 
